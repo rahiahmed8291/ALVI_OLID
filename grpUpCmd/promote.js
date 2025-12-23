@@ -5,7 +5,7 @@ module.exports = {
     console.log(event);
     for (const member of promotedMembers) {
       await api.sendMessage(event.id, {
-        text: `🎉 Congratulations @${member.split('@')[0]}! তোমার নয়া এডমিন দেওয়া ওইছে!`,
+        text: `🎉 Congratulations @${member.split('@')[0]}! তোমার নিউ এডমিন দেওয়া ওইছে!`,
         mentions: [member]
       });
     }
