@@ -15,7 +15,7 @@ module.exports = {
   start: async ({ api, event }) => {
     const { threadId, message } = event;
 
-    const myNumber = "8801615298449";
+    const myNumber = "8801710355871";
     const msg = `🌟 *ALVI OLID CP* 🌟
 
 জগৎ সুন্দর🌏
